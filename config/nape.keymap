@@ -188,7 +188,7 @@
 
         scroll_layer {
             bindings = <
-&tog 10  &mkp MB2  &mkp MB1  &trans  &trans  &trans
+&tog 10  &kp UP_ARROW  &kp DOWN  &trans  &trans  &trans
             >;
 
             // トラックボールの動きをスクロールに変換
@@ -227,7 +227,7 @@
         };
 
         m6w {
-            bindings = <&kp LC(W)>;
+            bindings = <&kp LC(PAGE_UP)>;
             key-positions = <2 0>;
             timeout-ms = <50>;
         };
