@@ -227,7 +227,7 @@
         };
 
         m6w {
-            bindings = <&kp LC(PAGE_UP)>;
+            bindings = <&kp LC(PAGE_DOWN)>;
             key-positions = <2 0>;
             timeout-ms = <50>;
         };
