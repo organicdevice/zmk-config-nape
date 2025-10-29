@@ -188,7 +188,7 @@
 
         scroll_layer {
             bindings = <
-&tog 10  &kp UP_ARROW  &kp DOWN  &trans  &trans  &trans
+&tog 10  &kp LCTRL  &kp DOWN  &trans  &trans  &trans
             >;
 
             // トラックボールの動きをスクロールに変換
